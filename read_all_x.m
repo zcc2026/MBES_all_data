@@ -164,5 +164,5 @@ while ~feof(fid)
 end
 
 fclose(fid);
-fprintf('成功提取 %d 个X数据包。\n', idx);
+fprintf('成功提取 %d 个数据包。\n', idx);
 end
